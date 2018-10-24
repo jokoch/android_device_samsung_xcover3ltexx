@@ -1,0 +1,2 @@
+/dev/block/platform/soc.2/by-name/SYSTEM	/	ext4	ro,barrier=1                wait,slotselect,verify
+/dev/block/platform/soc.2/by-name/USER		/data	ext4	errors=panic,noatime,nosuid,nodev,barrier=1,noauto_da_alloc  latemount,wait,check,formattable,fileencryption=ice,quota,reservedsize=128M
